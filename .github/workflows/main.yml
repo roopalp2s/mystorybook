@@ -19,4 +19,4 @@ jobs:
         name: Build
       - run: npm test
         env:
-          CI: true
+          CI: false
