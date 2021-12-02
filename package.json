@@ -1,0 +1,48 @@
+{
+  "name": "ql-engage-ui-core",
+  "version": "0.1.1",
+  "description": "UI Core components of Engage",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "build-lib": "rollup -c"
+  },
+  "author": "Unifyed",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "@rollup/plugin-node-resolve": "^13.0.5",
+    "@storybook/addon-actions": "^6.3.10",
+    "@storybook/addon-essentials": "^6.3.10",
+    "@storybook/addon-links": "^6.3.10",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/react": "^6.3.10",
+    "autoprefixer": "^9.0.0",
+    "babel-loader": "^8.2.2",
+    "postcss": "^8.3.9",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^2.58.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.1",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.16"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "prop-types": "^15.7.2"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.4.2",
+    "moment": "^2.29.1",
+    "react-elastic-carousel": "^0.11.5",
+    "react-search-autocomplete": "^5.4.2",
+    "tailwind-scrollbar": "^1.3.1"
+  }
+}
